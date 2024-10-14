@@ -13,14 +13,14 @@ body{
 }
 
 div.container{
-    width: 500px;
-    height: 800px;
+    width: 350px;
+    height: 600px;
     margin: 300px auto;
     background-color: #ffffff;
     box-shadow: 15px 15px 1px black;
     border-radius: 30px;
     border: 1px solid black;
-    padding: 35px;
+    padding: 20px;
 }
 
 div.img{
@@ -37,18 +37,20 @@ div.text button{
     background-color: hsl(47, 88%, 63%);
     padding: 10px 25px;
     font-weight: bolder;
-    margin: 30px 0px;
+    margin: 20px 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 div.text p:nth-of-type(1){
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 div.text h2{
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
     transition-duration: 0.3s;
 }
 
@@ -58,7 +60,7 @@ div.text h2:hover{
 
 
 div.text p:nth-of-type(2){
-    font-size: 20px;
+    font-size: 15px;
     color: gray;
 }
 
@@ -66,7 +68,7 @@ div.text p:nth-of-type(2){
 div.footer{
     display: flex;
     align-items: flex-end;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 div.footer div.profile-image img{
