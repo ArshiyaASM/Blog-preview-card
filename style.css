@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+*{
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    font-size: 18px;
+}
+
+div.container{
+    width: 500px;
+    height: 800px;
+    margin: 300px auto;
+    background-color: #ffffff;
+    box-shadow: 15px 15px 1px black;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 35px;
+}
+
+div.img{
+    height: 45%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url("img/illustration-article.svg");
+    background-size: cover;
+} 
+
+div.text button{
+    all: unset;
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px 25px;
+    font-weight: bolder;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+div.text p:nth-of-type(1){
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+div.text h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+    transition-duration: 0.3s;
+}
+
+div.text h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+
+div.text p:nth-of-type(2){
+    font-size: 20px;
+    color: gray;
+}
+
+
+div.footer{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+}
+
+div.footer div.profile-image img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+div.footer div.name{
+    display: flex;
+    align-self: center;
+}
+
+
+div.footer div.name p{
+    font-weight: 500px;
+    margin-left: 15px;
+    font-weight: 600;
+}
