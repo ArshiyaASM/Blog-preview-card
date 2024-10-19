@@ -10,12 +10,15 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree";
     font-size: 18px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.container{
     width: 350px;
     height: 600px;
-    margin: 300px auto;
     background-color: #ffffff;
     box-shadow: 15px 15px 1px black;
     border-radius: 30px;
