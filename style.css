@@ -17,9 +17,9 @@ body{
 }
 
 div.container{
-    min-width: 400px;
-    width: 400px;
-    height: 550px;
+    min-width: 350px;
+    width: 350px;
+    height: 500px;
     background-color: #ffffff;
     box-shadow: 15px 15px 1px black;
     border-radius: 30px;
@@ -72,7 +72,7 @@ div.text p:nth-of-type(2){
 div.footer{
     display: flex;
     align-items: flex-end;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 div.footer div.profile-image img{
