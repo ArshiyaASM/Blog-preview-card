@@ -17,14 +17,14 @@ body{
 }
 
 div.container{
-    min-width: 450px;
-    width: 450px;
-    height: 600px;
+    min-width: 400px;
+    width: 400px;
+    height: 550px;
     background-color: #ffffff;
     box-shadow: 15px 15px 1px black;
     border-radius: 30px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 15px;
 }
 
 div.img{
@@ -53,7 +53,7 @@ div.text p:nth-of-type(1){
 
 div.text h2{
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 18px;
     transition-duration: 0.3s;
 }
@@ -64,7 +64,7 @@ div.text h2:hover{
 
 
 div.text p:nth-of-type(2){
-    font-size: 15px;
+    font-size: 14px;
     color: gray;
 }
 
